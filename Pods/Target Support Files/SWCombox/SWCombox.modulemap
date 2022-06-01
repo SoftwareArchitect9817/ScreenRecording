@@ -1,0 +1,6 @@
+framework module SWCombox {
+  umbrella header "SWCombox-umbrella.h"
+
+  export *
+  module * { export * }
+}

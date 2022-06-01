@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048BE7059C14D3EC4808BE492A05F83B /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31959ACE057F6DEDD17FCF960B2B82F /* NibView.swift */; };
+		0FBB9F6F7FB6FCF803F034A0EF84BB4B /* Pods-Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A819C45914C104100FE73F19A287634 /* Pods-Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11CF375C3319E81F82377EBC0512D68E /* Pods-ScreenRecording-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A784DB1DF6737CD777F32C7A2C208157 /* Pods-ScreenRecording-dummy.m */; };
+		15CBD97C58283F9947E7064FF25A140C /* Pods-ScreenRecording-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B6236E34B9953EBC06E510C1D61FDD /* Pods-ScreenRecording-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30197524C17CF0DCF6C4D3684E145D62 /* SWCombox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A45AA221AF3F57D24B9E2AE2FD2F8 /* SWCombox-dummy.m */; };
+		320FD1BE75A07F1D9C1D2E943F977158 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF589106FC628CD52EFB846C78DFE7B /* UIViewEx.swift */; };
+		3580D5C95AFA6C21051A9F6E4AE7AACB /* SWCombox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAA88C92C3027FD9C449FFFD80477C4 /* SWCombox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F7970159E1482B9A70F18A84206A8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5707310EBEF52607B3C5871623A3FEEF /* SWComboxTextSelection.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9FC43766D06F090D3E00F3E828F67F7C /* SWComboxTextSelection.xib */; };
+		5828DEE9450BFFA5FE0E06DC700BD2F1 /* SWComboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944F94DDD577CA9EA83F4A20F0E2DF4B /* SWComboxView.swift */; };
+		5BBDC058936C623020F969F200E559A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		671EFBBF1249F90FB1362FB7F2789C49 /* SWComboxView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 404C21ACB19465552DF2AB6E3AED2BDD /* SWComboxView.xib */; };
+		98323AFA320D3ED6FE431EFC2661D7C1 /* SWComboxImageSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9577334EF277FF6952F7B84F1DD21C1 /* SWComboxImageSelection.swift */; };
+		99DD28F579362B28F88CF817B5BB6E03 /* SWComboxImageSelection.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B6B7783EF494493BFFB2A05F57DD /* SWComboxImageSelection.xib */; };
+		9A14E194EE3F9B7BFF16FA542EA42A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A82A1CA08409D2D2758DA808096A00A7 /* SWComboxSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2431FD92E2913E3DBA1A04393321FA79 /* SWComboxSelectionView.swift */; };
+		A8B60A5316B8F4D603F6ECAF3B5DB985 /* Pods-ExtensionSetupUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C326F3A781110400080DE295D99522 /* Pods-ExtensionSetupUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF24B0902017BB7E2DEA25069E7B1C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C1CCF1C3AE0976ACDE5224CCA67FDC6E /* SWComboxSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5BECCE297F88A44E05CB3A33ACF6B /* SWComboxSelectionCell.swift */; };
+		DC7418090E7796006E96B4EBCE7351BE /* Pods-Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8141278146695AB872D9A7A8BB31AA56 /* Pods-Extension-dummy.m */; };
+		EB74EA192CF0CC5C0A29A2C4AB096E7B /* Pods-ExtensionSetupUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170369D16F1B9CD9B50FAC7E74BEDAC /* Pods-ExtensionSetupUI-dummy.m */; };
+		EC31C0F6894E285A8A882E3EF6E25592 /* SWComboxTextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A70B6755B1E6D768305FADBE4509D8 /* SWComboxTextSelection.swift */; };
+		FAD15EA8491892C90B6CE6FB99ECB35E /* icn-dropdown.pdf in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF86BEC57872405721F74D26CD4B7 /* icn-dropdown.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B665A64A6D6C35CF0BAAFCB4F8611D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2437293F76965992DC14B00EA28EC8D8;
+			remoteInfo = SWCombox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0942E8682D040C3E9E8B14574B1DFB92 /* Pods-ExtensionSetupUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExtensionSetupUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		1170369D16F1B9CD9B50FAC7E74BEDAC /* Pods-ExtensionSetupUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExtensionSetupUI-dummy.m"; sourceTree = "<group>"; };
+		19BD929AD6F35C678548CB9135C3DF03 /* SWCombox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWCombox.xcconfig; sourceTree = "<group>"; };
+		1F8A45AA221AF3F57D24B9E2AE2FD2F8 /* SWCombox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWCombox-dummy.m"; sourceTree = "<group>"; };
+		22B6236E34B9953EBC06E510C1D61FDD /* Pods-ScreenRecording-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenRecording-umbrella.h"; sourceTree = "<group>"; };
+		2431FD92E2913E3DBA1A04393321FA79 /* SWComboxSelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWComboxSelectionView.swift; path = SWComboxLib/SWComboxSelectionView.swift; sourceTree = "<group>"; };
+		24C326F3A781110400080DE295D99522 /* Pods-ExtensionSetupUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExtensionSetupUI-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		404C21ACB19465552DF2AB6E3AED2BDD /* SWComboxView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SWComboxView.xib; path = SWComboxLib/SWComboxView.xib; sourceTree = "<group>"; };
+		422076F286DE439EF50F2BEA901B6C69 /* Pods-ScreenRecording.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecording.debug.xcconfig"; sourceTree = "<group>"; };
+		451DE14B38B0F75B8F2BD93D9E905E83 /* Pods-ExtensionSetupUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExtensionSetupUI.debug.xcconfig"; sourceTree = "<group>"; };
+		48B5BECCE297F88A44E05CB3A33ACF6B /* SWComboxSelectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWComboxSelectionCell.swift; path = SWComboxLib/SWComboxSelectionCell.swift; sourceTree = "<group>"; };
+		557FBFD193A1D76AA5E89F2297067CE7 /* Pods-ScreenRecording-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecording-frameworks.sh"; sourceTree = "<group>"; };
+		57FF064064865BFC2D9251F4FBE192AE /* Pods-ScreenRecording.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecording.release.xcconfig"; sourceTree = "<group>"; };
+		6417B3BDA36EB6CCECD827D103E6E454 /* Pods_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C7F51B228F429C033A3261237F34F3 /* Pods_ScreenRecording.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenRecording.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E84D0DCBDB9ECB89C0199AA7A010C5 /* Pods-ScreenRecording-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRecording-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FAA88C92C3027FD9C449FFFD80477C4 /* SWCombox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWCombox-umbrella.h"; sourceTree = "<group>"; };
+		7062254D2A9A40A1792270EBB41E4E3A /* SWCombox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SWCombox-Info.plist"; sourceTree = "<group>"; };
+		76A70B6755B1E6D768305FADBE4509D8 /* SWComboxTextSelection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWComboxTextSelection.swift; path = SWComboxLib/SWComboxTextSelection.swift; sourceTree = "<group>"; };
+		7A819C45914C104100FE73F19A287634 /* Pods-Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Extension-umbrella.h"; sourceTree = "<group>"; };
+		7A83B6B7783EF494493BFFB2A05F57DD /* SWComboxImageSelection.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SWComboxImageSelection.xib; path = SWComboxLib/SWComboxImageSelection.xib; sourceTree = "<group>"; };
+		7CD5FCC76E6BA07AFA848A9D94B9BE56 /* SWCombox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWCombox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA4D21F4BCB9FA04C3B17BA5282A62E /* Pods-ScreenRecording-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRecording-Info.plist"; sourceTree = "<group>"; };
+		8141278146695AB872D9A7A8BB31AA56 /* Pods-Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Extension-dummy.m"; sourceTree = "<group>"; };
+		829B5B342CAFD8489D57EE501C41AE3A /* Pods-ExtensionSetupUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExtensionSetupUI.release.xcconfig"; sourceTree = "<group>"; };
+		84D6CE4F984324061647A925E4967D5F /* Pods-Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Extension-Info.plist"; sourceTree = "<group>"; };
+		8FFF1452973D38698EC1F39478A3F392 /* Pods-Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		944F94DDD577CA9EA83F4A20F0E2DF4B /* SWComboxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWComboxView.swift; path = SWComboxLib/SWComboxView.swift; sourceTree = "<group>"; };
+		97312AFBA8AF97D4476120C89F84A171 /* Pods-ExtensionSetupUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExtensionSetupUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F271AA9BF9B8BBFB8BCE0E67F26A831 /* Pods-ScreenRecording-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenRecording-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FC43766D06F090D3E00F3E828F67F7C /* SWComboxTextSelection.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SWComboxTextSelection.xib; path = SWComboxLib/SWComboxTextSelection.xib; sourceTree = "<group>"; };
+		A0CDF86BEC57872405721F74D26CD4B7 /* icn-dropdown.pdf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.pdf; name = "icn-dropdown.pdf"; path = "SWComboxLib/icn-dropdown.pdf"; sourceTree = "<group>"; };
+		A784DB1DF6737CD777F32C7A2C208157 /* Pods-ScreenRecording-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenRecording-dummy.m"; sourceTree = "<group>"; };
+		A7B05EA1B97C124669663EE718271407 /* Pods-ExtensionSetupUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExtensionSetupUI-Info.plist"; sourceTree = "<group>"; };
+		A9577334EF277FF6952F7B84F1DD21C1 /* SWComboxImageSelection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWComboxImageSelection.swift; path = SWComboxLib/SWComboxImageSelection.swift; sourceTree = "<group>"; };
+		C19373A7B0C65AC84AB8505149F9894F /* Pods-Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C31959ACE057F6DEDD17FCF960B2B82F /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = SWComboxLib/NibView.swift; sourceTree = "<group>"; };
+		CDE0A1FA6638FAD75FB9E2C9C460536E /* Pods-ScreenRecording.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenRecording.modulemap"; sourceTree = "<group>"; };
+		D849C61DD472C51899DA5644B917E1DE /* Pods-Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA36BEAFDAB5249A626B888151F1D574 /* Pods-Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Extension.modulemap"; sourceTree = "<group>"; };
+		DC65D1137A130FA6F804DC58239BE9C2 /* Pods-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E2EDF2B67050C0363C4D02F078424AD0 /* SWCombox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWCombox-prefix.pch"; sourceTree = "<group>"; };
+		E561CC9A49776D908DE026E8577A6F45 /* Pods-ExtensionSetupUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExtensionSetupUI.modulemap"; sourceTree = "<group>"; };
+		EEF589106FC628CD52EFB846C78DFE7B /* UIViewEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewEx.swift; path = SWComboxLib/UIViewEx.swift; sourceTree = "<group>"; };
+		F85E21D7084A556DAF7ED48B88910C56 /* SWCombox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SWCombox.modulemap; sourceTree = "<group>"; };
+		F92A93B7C65375DA0A97FC07185D2D90 /* Pods_ExtensionSetupUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtensionSetupUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D993AF424FDC3E6F9AECF60A0F82EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBDC058936C623020F969F200E559A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4C36A9E46BAFDDD949FDAB27B54A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A14E194EE3F9B7BFF16FA542EA42A30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31C10F6F38AD322BE0A45366C6A52DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF24B0902017BB7E2DEA25069E7B1C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5568A38E1323323B20B708339FA92EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F7970159E1482B9A70F18A84206A8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79DBCEBF986987CA093BD32D0D856F41 /* Pods-ExtensionSetupUI */ = {
+			isa = PBXGroup;
+			children = (
+				E561CC9A49776D908DE026E8577A6F45 /* Pods-ExtensionSetupUI.modulemap */,
+				97312AFBA8AF97D4476120C89F84A171 /* Pods-ExtensionSetupUI-acknowledgements.markdown */,
+				0942E8682D040C3E9E8B14574B1DFB92 /* Pods-ExtensionSetupUI-acknowledgements.plist */,
+				1170369D16F1B9CD9B50FAC7E74BEDAC /* Pods-ExtensionSetupUI-dummy.m */,
+				A7B05EA1B97C124669663EE718271407 /* Pods-ExtensionSetupUI-Info.plist */,
+				24C326F3A781110400080DE295D99522 /* Pods-ExtensionSetupUI-umbrella.h */,
+				451DE14B38B0F75B8F2BD93D9E905E83 /* Pods-ExtensionSetupUI.debug.xcconfig */,
+				829B5B342CAFD8489D57EE501C41AE3A /* Pods-ExtensionSetupUI.release.xcconfig */,
+			);
+			name = "Pods-ExtensionSetupUI";
+			path = "Target Support Files/Pods-ExtensionSetupUI";
+			sourceTree = "<group>";
+		};
+		86FBCE1FBA75A2A8DBB0624D79476E91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A433E307E31F81674AD9391FA81BAFE5 /* SWCombox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		899A95A9AA605C8F9C4EAEDD8FC4010F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85E21D7084A556DAF7ED48B88910C56 /* SWCombox.modulemap */,
+				19BD929AD6F35C678548CB9135C3DF03 /* SWCombox.xcconfig */,
+				1F8A45AA221AF3F57D24B9E2AE2FD2F8 /* SWCombox-dummy.m */,
+				7062254D2A9A40A1792270EBB41E4E3A /* SWCombox-Info.plist */,
+				E2EDF2B67050C0363C4D02F078424AD0 /* SWCombox-prefix.pch */,
+				6FAA88C92C3027FD9C449FFFD80477C4 /* SWCombox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWCombox";
+			sourceTree = "<group>";
+		};
+		A00A6E816401DCF0A676901590101170 /* Pods-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA36BEAFDAB5249A626B888151F1D574 /* Pods-Extension.modulemap */,
+				C19373A7B0C65AC84AB8505149F9894F /* Pods-Extension-acknowledgements.markdown */,
+				D849C61DD472C51899DA5644B917E1DE /* Pods-Extension-acknowledgements.plist */,
+				8141278146695AB872D9A7A8BB31AA56 /* Pods-Extension-dummy.m */,
+				84D6CE4F984324061647A925E4967D5F /* Pods-Extension-Info.plist */,
+				7A819C45914C104100FE73F19A287634 /* Pods-Extension-umbrella.h */,
+				8FFF1452973D38698EC1F39478A3F392 /* Pods-Extension.debug.xcconfig */,
+				DC65D1137A130FA6F804DC58239BE9C2 /* Pods-Extension.release.xcconfig */,
+			);
+			name = "Pods-Extension";
+			path = "Target Support Files/Pods-Extension";
+			sourceTree = "<group>";
+		};
+		A433E307E31F81674AD9391FA81BAFE5 /* SWCombox */ = {
+			isa = PBXGroup;
+			children = (
+				A0CDF86BEC57872405721F74D26CD4B7 /* icn-dropdown.pdf */,
+				C31959ACE057F6DEDD17FCF960B2B82F /* NibView.swift */,
+				A9577334EF277FF6952F7B84F1DD21C1 /* SWComboxImageSelection.swift */,
+				7A83B6B7783EF494493BFFB2A05F57DD /* SWComboxImageSelection.xib */,
+				48B5BECCE297F88A44E05CB3A33ACF6B /* SWComboxSelectionCell.swift */,
+				2431FD92E2913E3DBA1A04393321FA79 /* SWComboxSelectionView.swift */,
+				76A70B6755B1E6D768305FADBE4509D8 /* SWComboxTextSelection.swift */,
+				9FC43766D06F090D3E00F3E828F67F7C /* SWComboxTextSelection.xib */,
+				944F94DDD577CA9EA83F4A20F0E2DF4B /* SWComboxView.swift */,
+				404C21ACB19465552DF2AB6E3AED2BDD /* SWComboxView.xib */,
+				EEF589106FC628CD52EFB846C78DFE7B /* UIViewEx.swift */,
+				899A95A9AA605C8F9C4EAEDD8FC4010F /* Support Files */,
+			);
+			path = SWCombox;
+			sourceTree = "<group>";
+		};
+		AF54672DC00CE9C439B445606E70FBA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6417B3BDA36EB6CCECD827D103E6E454 /* Pods_Extension.framework */,
+				F92A93B7C65375DA0A97FC07185D2D90 /* Pods_ExtensionSetupUI.framework */,
+				64C7F51B228F429C033A3261237F34F3 /* Pods_ScreenRecording.framework */,
+				7CD5FCC76E6BA07AFA848A9D94B9BE56 /* SWCombox.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C91BE9A141EA90E27885B72146BE9369 /* Pods-ScreenRecording */ = {
+			isa = PBXGroup;
+			children = (
+				CDE0A1FA6638FAD75FB9E2C9C460536E /* Pods-ScreenRecording.modulemap */,
+				9F271AA9BF9B8BBFB8BCE0E67F26A831 /* Pods-ScreenRecording-acknowledgements.markdown */,
+				67E84D0DCBDB9ECB89C0199AA7A010C5 /* Pods-ScreenRecording-acknowledgements.plist */,
+				A784DB1DF6737CD777F32C7A2C208157 /* Pods-ScreenRecording-dummy.m */,
+				557FBFD193A1D76AA5E89F2297067CE7 /* Pods-ScreenRecording-frameworks.sh */,
+				7EA4D21F4BCB9FA04C3B17BA5282A62E /* Pods-ScreenRecording-Info.plist */,
+				22B6236E34B9953EBC06E510C1D61FDD /* Pods-ScreenRecording-umbrella.h */,
+				422076F286DE439EF50F2BEA901B6C69 /* Pods-ScreenRecording.debug.xcconfig */,
+				57FF064064865BFC2D9251F4FBE192AE /* Pods-ScreenRecording.release.xcconfig */,
+			);
+			name = "Pods-ScreenRecording";
+			path = "Target Support Files/Pods-ScreenRecording";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				86FBCE1FBA75A2A8DBB0624D79476E91 /* Pods */,
+				AF54672DC00CE9C439B445606E70FBA1 /* Products */,
+				DDA45E7858D3C9BD879230A8C6616722 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA45E7858D3C9BD879230A8C6616722 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00A6E816401DCF0A676901590101170 /* Pods-Extension */,
+				79DBCEBF986987CA093BD32D0D856F41 /* Pods-ExtensionSetupUI */,
+				C91BE9A141EA90E27885B72146BE9369 /* Pods-ScreenRecording */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CCDA3B4F319DBBCB0A3162A92451409 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B60A5316B8F4D603F6ECAF3B5DB985 /* Pods-ExtensionSetupUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2382CD9B062F272B35E4A76084A9C3B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580D5C95AFA6C21051A9F6E4AE7AACB /* SWCombox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508CCB35778DCA7529591608EB488307 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBB9F6F7FB6FCF803F034A0EF84BB4B /* Pods-Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13D35EF85252C8E8C51DA1A7D1F4D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CBD97C58283F9947E7064FF25A140C /* Pods-ScreenRecording-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2437293F76965992DC14B00EA28EC8D8 /* SWCombox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D151F22994AC851C28FC683FF36B8F3D /* Build configuration list for PBXNativeTarget "SWCombox" */;
+			buildPhases = (
+				2382CD9B062F272B35E4A76084A9C3B0 /* Headers */,
+				0C2ED6C60867DD0BE3484864D37BC771 /* Sources */,
+				01D993AF424FDC3E6F9AECF60A0F82EA /* Frameworks */,
+				475E9C2649A637D43B81C7CBFF8C0246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWCombox;
+			productName = SWCombox;
+			productReference = 7CD5FCC76E6BA07AFA848A9D94B9BE56 /* SWCombox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E7A96F58AD45BDCFD5C6FDFC94914AC /* Pods-ExtensionSetupUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1ABD46C727A304DF8ABF56D5E7C1A2 /* Build configuration list for PBXNativeTarget "Pods-ExtensionSetupUI" */;
+			buildPhases = (
+				1CCDA3B4F319DBBCB0A3162A92451409 /* Headers */,
+				9F125BE6B3A6D22B05AE99F9F359B95E /* Sources */,
+				7C4C36A9E46BAFDDD949FDAB27B54A82 /* Frameworks */,
+				F0D311B37D7821371EB935D75A098B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ExtensionSetupUI";
+			productName = "Pods-ExtensionSetupUI";
+			productReference = F92A93B7C65375DA0A97FC07185D2D90 /* Pods_ExtensionSetupUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FC502A6FBF6871874D22CCC1395AFF0 /* Pods-ScreenRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9107653EB4B217739365A60F69212E /* Build configuration list for PBXNativeTarget "Pods-ScreenRecording" */;
+			buildPhases = (
+				ED13D35EF85252C8E8C51DA1A7D1F4D1 /* Headers */,
+				5A6274C85589A048724453C30DCB2F29 /* Sources */,
+				F5568A38E1323323B20B708339FA92EF /* Frameworks */,
+				3258A2BF5DC4AD9E8AFC625CB66C38AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A89B5E03B06B354B350210E26FE3AF /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenRecording";
+			productName = "Pods-ScreenRecording";
+			productReference = 64C7F51B228F429C033A3261237F34F3 /* Pods_ScreenRecording.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C55068AB2E1795B056ED497CF06325C9 /* Pods-Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958299D1CE7F6B34165E29E895A400A2 /* Build configuration list for PBXNativeTarget "Pods-Extension" */;
+			buildPhases = (
+				508CCB35778DCA7529591608EB488307 /* Headers */,
+				4DD75131D89F2549E028C9A194B2C7A5 /* Sources */,
+				D31C10F6F38AD322BE0A45366C6A52DB /* Frameworks */,
+				02B745FD30FF081D9CFE69F737139482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Extension";
+			productName = "Pods-Extension";
+			productReference = 6417B3BDA36EB6CCECD827D103E6E454 /* Pods_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF54672DC00CE9C439B445606E70FBA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55068AB2E1795B056ED497CF06325C9 /* Pods-Extension */,
+				4E7A96F58AD45BDCFD5C6FDFC94914AC /* Pods-ExtensionSetupUI */,
+				4FC502A6FBF6871874D22CCC1395AFF0 /* Pods-ScreenRecording */,
+				2437293F76965992DC14B00EA28EC8D8 /* SWCombox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B745FD30FF081D9CFE69F737139482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3258A2BF5DC4AD9E8AFC625CB66C38AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475E9C2649A637D43B81C7CBFF8C0246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D311B37D7821371EB935D75A098B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C2ED6C60867DD0BE3484864D37BC771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD15EA8491892C90B6CE6FB99ECB35E /* icn-dropdown.pdf in Sources */,
+				048BE7059C14D3EC4808BE492A05F83B /* NibView.swift in Sources */,
+				30197524C17CF0DCF6C4D3684E145D62 /* SWCombox-dummy.m in Sources */,
+				98323AFA320D3ED6FE431EFC2661D7C1 /* SWComboxImageSelection.swift in Sources */,
+				99DD28F579362B28F88CF817B5BB6E03 /* SWComboxImageSelection.xib in Sources */,
+				C1CCF1C3AE0976ACDE5224CCA67FDC6E /* SWComboxSelectionCell.swift in Sources */,
+				A82A1CA08409D2D2758DA808096A00A7 /* SWComboxSelectionView.swift in Sources */,
+				EC31C0F6894E285A8A882E3EF6E25592 /* SWComboxTextSelection.swift in Sources */,
+				5707310EBEF52607B3C5871623A3FEEF /* SWComboxTextSelection.xib in Sources */,
+				5828DEE9450BFFA5FE0E06DC700BD2F1 /* SWComboxView.swift in Sources */,
+				671EFBBF1249F90FB1362FB7F2789C49 /* SWComboxView.xib in Sources */,
+				320FD1BE75A07F1D9C1D2E943F977158 /* UIViewEx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD75131D89F2549E028C9A194B2C7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7418090E7796006E96B4EBCE7351BE /* Pods-Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6274C85589A048724453C30DCB2F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CF375C3319E81F82377EBC0512D68E /* Pods-ScreenRecording-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F125BE6B3A6D22B05AE99F9F359B95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB74EA192CF0CC5C0A29A2C4AB096E7B /* Pods-ExtensionSetupUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A89B5E03B06B354B350210E26FE3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWCombox;
+			target = 2437293F76965992DC14B00EA28EC8D8 /* SWCombox */;
+			targetProxy = B665A64A6D6C35CF0BAAFCB4F8611D11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B580DA9F414303C1FBF512371F90EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422076F286DE439EF50F2BEA901B6C69 /* Pods-ScreenRecording.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenRecording/Pods-ScreenRecording-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenRecording/Pods-ScreenRecording.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23B1D13A3AB1E945C56D0457109DC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BD929AD6F35C678548CB9135C3DF03 /* SWCombox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWCombox/SWCombox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWCombox/SWCombox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SWCombox/SWCombox.modulemap";
+				PRODUCT_MODULE_NAME = SWCombox;
+				PRODUCT_NAME = SWCombox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35E1817B15FEEE87C7818D20D2B9BD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BD929AD6F35C678548CB9135C3DF03 /* SWCombox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWCombox/SWCombox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWCombox/SWCombox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SWCombox/SWCombox.modulemap";
+				PRODUCT_MODULE_NAME = SWCombox;
+				PRODUCT_NAME = SWCombox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B8354765EE6E8B9CA7A934793F40100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFF1452973D38698EC1F39478A3F392 /* Pods-Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Extension/Pods-Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Extension/Pods-Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		922B7C78DDC7EE072D71102B8AAE9E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451DE14B38B0F75B8F2BD93D9E905E83 /* Pods-ExtensionSetupUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExtensionSetupUI/Pods-ExtensionSetupUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExtensionSetupUI/Pods-ExtensionSetupUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A33D06FF4CF7FEACD5B89E7668E0D7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC65D1137A130FA6F804DC58239BE9C2 /* Pods-Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Extension/Pods-Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Extension/Pods-Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B30083DAD72BAD95A335706C7FFB3B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829B5B342CAFD8489D57EE501C41AE3A /* Pods-ExtensionSetupUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExtensionSetupUI/Pods-ExtensionSetupUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExtensionSetupUI/Pods-ExtensionSetupUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D42AE46EBEF4D920B19FE14AD30BF8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FF064064865BFC2D9251F4FBE192AE /* Pods-ScreenRecording.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenRecording/Pods-ScreenRecording-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenRecording/Pods-ScreenRecording.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E9107653EB4B217739365A60F69212E /* Build configuration list for PBXNativeTarget "Pods-ScreenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B580DA9F414303C1FBF512371F90EE2 /* Debug */,
+				D42AE46EBEF4D920B19FE14AD30BF8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958299D1CE7F6B34165E29E895A400A2 /* Build configuration list for PBXNativeTarget "Pods-Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8354765EE6E8B9CA7A934793F40100 /* Debug */,
+				A33D06FF4CF7FEACD5B89E7668E0D7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D151F22994AC851C28FC683FF36B8F3D /* Build configuration list for PBXNativeTarget "SWCombox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E1817B15FEEE87C7818D20D2B9BD4F /* Debug */,
+				23B1D13A3AB1E945C56D0457109DC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1ABD46C727A304DF8ABF56D5E7C1A2 /* Build configuration list for PBXNativeTarget "Pods-ExtensionSetupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922B7C78DDC7EE072D71102B8AAE9E51 /* Debug */,
+				B30083DAD72BAD95A335706C7FFB3B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SWCombox",
+  "version": "2.5",
+  "summary": "Simple Combo Box",
+  "description": "Simple Combo Box - text / image & text",
+  "homepage": "https://github.com/sw0906/SWCombox.git",
+  "screenshots": "https://github.com/sw0906/SWCombox/blob/master/sample02.png",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Shou Wei": "sw0906@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sw0906/SWCombox.git",
+    "tag": "2.5"
+  },
+  "source_files": "SWComboxLib/*"
+}

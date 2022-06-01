@@ -1,0 +1,21 @@
+PODS:
+  - SWCombox (2.5)
+
+DEPENDENCIES:
+  - SWCombox (from `https://github.com/sw0906/SWCombox.git`)
+
+EXTERNAL SOURCES:
+  SWCombox:
+    :git: https://github.com/sw0906/SWCombox.git
+
+CHECKOUT OPTIONS:
+  SWCombox:
+    :commit: e2fd1e49762d75fb70bade0bbe4c9fabb7c57df2
+    :git: https://github.com/sw0906/SWCombox.git
+
+SPEC CHECKSUMS:
+  SWCombox: 08ede8d67db90af7da309d907820b1f318385e4c
+
+PODFILE CHECKSUM: 50f88d8a823863a3ab3a1888cac73a4c9cf352a9
+
+COCOAPODS: 1.8.4
